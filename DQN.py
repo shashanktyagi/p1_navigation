@@ -96,7 +96,7 @@ if args.train:
     plt.xlabel('Episode #')
     plt.legend(loc='lower right')
     plt.grid()
-    plt.savefig('training_scores.eps', format='eps', dpi=1000)
+    plt.savefig('training_scores.png', format='png', dpi=1000)
     plt.show()
 
 print('visualizing trained agent')
