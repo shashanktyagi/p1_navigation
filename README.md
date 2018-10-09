@@ -52,3 +52,16 @@ Note that the setup assumes that Tkinter is installed for python3. If not, insta
 ```
 sudo apt install python3-tk
 ```
+
+### Training an agent
+To train an agent run the following command
+```
+python DQN.py --train --num_episodes 2000
+```
+
+### Visualizing a trained agent
+To visualize the agent you trained, run the following (note that a trained agent checkpoint is also provided)
+```
+python DQN.py --checkpoint checkpoint.pth
+```
+
