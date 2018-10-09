@@ -26,6 +26,7 @@ The project has been tested on Linux only.
 #### Download the environment
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
+    - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
 
 2. Place the file in the `p1_navigation/` source folder, and unzip (or decompress) the file (the repo already contains extracted environment for Linux).
 
