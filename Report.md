@@ -24,6 +24,8 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 ### Learning Algorithm
 
 ### Results
+The figure below shows average rewards per episode as the agent is being trained. The training is terminated when the average reward per episode reaches 13. We were able to solve the environement in 562 episodes.
+
 ![Rewards per episode][image2]
 
 ### Future Work
