@@ -27,15 +27,21 @@ The project has been tested on Linux only.
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
 
-2. Place the file in the `p1_navigation/` source folder, and unzip (or decompress) the file (the repo already contains extracted environment for Linux.
+2. Place the file in the `p1_navigation/` source folder, and unzip (or decompress) the file (the repo already contains extracted environment for Linux).
 
 #### Install all the dependencies
 1. Install virtualenv
-`sudo apt install virtualenv`
+```
+sudo apt install virtualenv
+```
 2. Create a virtualenv for python3
-`virtualenv -p python3 drlnd`
+```
+virtualenv -p python3 drlnd
+```
 3. Activate the environment
-`source drlnd/bin/activate`
+```
+source drlnd/bin/activate
+```
 4. Install all the dependencies
 ```
 cd p1_navigation/
