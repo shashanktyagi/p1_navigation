@@ -47,3 +47,7 @@ source drlnd/bin/activate
 cd p1_navigation/
 pip3 install python/
 ```
+Note that the setup assumes that Tkinter is installed for python3. If not, install using the following
+```
+sudo apt install python3-tk
+```
