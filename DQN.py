@@ -17,7 +17,7 @@ parser.add_argument('--num_episodes', required=False, type=int, default=2000,
                     help='num of episodes to train for')
 args = parser.parse_args()
 
-env = UnityEnvironment(file_name='Banana.app')
+env = UnityEnvironment(file_name='./Banana_Linux/Banana.x86_64')
 # get default brain
 brain_name = env.brain_names[0]
 brain = env.brains[brain_name]
