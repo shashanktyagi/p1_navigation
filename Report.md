@@ -5,7 +5,7 @@
 
 # Project 1: Navigation
 
-### Introduction
+### 1. Introduction
 
 For this project, we train an agent to navigate (and collect bananas!) in a large, square world.  
 
@@ -21,11 +21,19 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 **Environment solved criterion:** The task is episodic, and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
 
-### Learning Algorithm
+### 2. Learning Algorithm
+We train the network using deep Q-Learning algorithm. For the Q-Network, we use a four layer MLP with 64, 128, 128 and 128 neurons respectively in hidden layers. The state vector is the 37 dimensional vector described in section 1.
 
-### Results
+
+### 3. Results
 The figure below shows average rewards per episode as the agent is being trained. The training is terminated when the average reward per episode reaches 13. We were able to solve the environement in 401 episodes.
+
+We train the network using Adam optimize with a learning rate of 0.0005 and batch size of 64. We use a discount factor of 0.99.
 
 ![Rewards per episode][image2]
 
-### Future Work
+### 4. Future Work
+  Since the discovery of Q-Learing algorithm, there have been a lot of improvement in this field viz. double DQN, Duelling DQN and prioritized experience replay. The future work involves the implementation of these algorithms and compare the results. The algorithm have shown better results on numerous problems. Thus, we expect them to train the agent in less number of episodes.
+  We would also like to train the network based on the raw image as input state vector. This would require a Convolutional Neural Network and the Q-Network.
+### References
+DQN paper: https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf
