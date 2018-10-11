@@ -23,12 +23,10 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 ### 2. Learning Algorithm
 We train the network using deep Q-Learning algorithm. For the Q-Network, we use a four layer MLP with 64, 128, 128 and 128 neurons respectively in hidden layers. The state vector is the 37 dimensional vector described in section 1.
-
+We train the network using Adam optimize with a learning rate of 0.0005 and batch size of 64. We use a discount factor of 0.99.
 
 ### 3. Results
 The figure below shows average rewards per episode as the agent is being trained. The training is terminated when the average reward per episode reaches 13. We were able to solve the environement in 401 episodes.
-
-We train the network using Adam optimize with a learning rate of 0.0005 and batch size of 64. We use a discount factor of 0.99.
 
 ![Rewards per episode][image2]
 
